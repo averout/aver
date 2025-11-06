@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Картинг-Центр Драйв | Адреналин на максимальной скорости</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header id="header">
+        <div class="container header-container">
+            <div class="logo">
+                <i class="fas fa-tachometer-alt logo-icon"></i>
+                <h1>Картинг<span>Драйв</span></h1>
+            </div>
+            <nav>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul id="navMenu">
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#gallery">Галерея</a></li>
+                    <li><a href="#booking">Запись</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Главный промо-блок с видео -->
+<section class="hero" id="home">
+    <div class="video-container">
+        <video autoplay muted loop playsinline class="video-background">
+            <source src="video.mp4" type="video/mp4">
+            <!-- Фолбэк на изображение если видео не грузится -->
+            <div class="video-fallback" style="background-image: url('https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80');"></div>
+        </video>
+        <div class="video-overlay"></div>
+    </div>
+    <div class="container">
+        <div class="hero-content">
+            <h2>Максимальная скорость. Адреналин. Драйв.</h2>
+            <p>Почувствуйте себя гонщиком на нашей профессиональной трассе с лучшими картами в городе.</p>
+            <a href="#booking" class="btn">Записаться сейчас</a>
+        </div>
+    </div>
+</section>
+
+    <!-- Услуги и тарифы -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Услуги и тарифы</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-img" style="background-image: url('https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80');"></div>
+                    <div class="service-content">
+                        <h3>Одиночный заезд</h3>
+                        <p>10 минут экстремальной езды на профессиональном карте. Идеально для первого знакомства с картингом.</p>
+                        <div class="price">1200 руб.</div>
+                        <a href="#booking" class="btn">Забронировать</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img" style="background-image: url('https://images.unsplash.com/photo-1593941707882-a5bba5331f5a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80');"></div>
+                    <div class="service-content">
+                        <h3>Гоночный пакет</h3>
+                        <p>3 заезда по 10 минут с анализом результатов. Соревнуйтесь с друзьями и улучшайте свои показатели.</p>
+                        <div class="price">3000 руб.</div>
+                        <a href="#booking" class="btn">Забронировать</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img" style="background-image: url('https://images.unsplash.com/photo-1514316454349-750a7fd3da3a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80');"></div>
+                    <div class="service-content">
+                        <h3>Корпоративный заезд</h3>
+                        <p>Организация мероприятия для вашей компании. Индивидуальный подход, призы и награды.</p>
+                        <div class="price">от 15000 руб.</div>
+                        <a href="#booking" class="btn">Узнать больше</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- О нас / Почему мы -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>Почему выбирают нас</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Лучший картинг-центр в регионе</h3>
+                    <p>Мы предлагаем уникальный опыт гонок на картах с профессиональным оборудованием и трассой, соответствующей международным стандартам.</p>
+                    <p>Наш центр оборудован современными системами безопасности, а наши инструкторы имеют многолетний опыт работы в автоспорте.</p>
+                    <div class="features">
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Профессиональные карты</h4>
+                                <p>Итальянские карты с двигателями 270cc</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Безопасность</h4>
+                                <p>Современное защитное оборудование</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-road"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Профессиональная трасса</h4>
+                                <p>500 метров с различными поворотами</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Опытные инструкторы</h4>
+                                <p>Помощь и советы от профессионалов</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1593941707103-a38f06d46369?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80" alt="Картинг-центр Драйв">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Галерея -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-title">
+                <h2>Наша галерея</h2>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-image="https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80">
+                    <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Картинг">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-image="https://images.unsplash.com/photo-1593941707882-a5bba5331f5a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80">
+                    <img src="https://images.unsplash.com/photo-1593941707882-a5bba5331f5a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Трасса">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-image="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80">
+                    <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Гонка">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-image="https://images.unsplash.com/photo-1535732820275-9ffd998cac22?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80">
+                    <img src="https://images.unsplash.com/photo-1535732820275-9ffd998cac22?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Карт">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Онлайн-запись -->
+    <section class="booking" id="booking">
+        <div class="container">
+            <div class="section-title">
+                <h2>Онлайн-запись</h2>
+            </div>
+            <div class="booking-container">
+                <div class="booking-form">
+                    <form id="bookingForm">
+                        <div class="form-group">
+                            <label for="name">Ваше имя</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Телефон</label>
+                            <input type="tel" id="phone" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="date">Дата</label>
+                            <input type="date" id="date" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="time">Время</label>
+                            <input type="time" id="time" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Услуга</label>
+                            <select id="service" class="form-control" required>
+                                <option value="">Выберите услугу</option>
+                                <option value="single">Одиночный заезд</option>
+                                <option value="package">Гоночный пакет</option>
+                                <option value="corporate">Корпоративный заезд</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="participants">Количество участников</label>
+                            <input type="number" id="participants" class="form-control" min="1" max="20" value="1">
+                        </div>
+                        <button type="submit" class="btn btn-accent">Забронировать</button>
+                    </form>
+                </div>
+                <div class="booking-info">
+                    <h3>Расписание работы</h3>
+                    <p>Мы открыты для вас каждый день. Забронируйте время заранее, чтобы гарантировать себе место на трассе.</p>
+                    <div class="schedule">
+                        <div class="schedule-item">
+                            <span class="day">Понедельник - Четверг</span>
+                            <span class="time">12:00 - 22:00</span>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="day">Пятница</span>
+                            <span class="time">12:00 - 23:00</span>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="day">Суббота</span>
+                            <span class="time">10:00 - 23:00</span>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="day">Воскресенье</span>
+                            <span class="time">10:00 - 22:00</span>
+                        </div>
+                    </div>
+                    <div class="contact-info" style="margin-top: 30px;">
+                        <h3>Контакты для связи</h3>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Телефон</h4>
+                                <p>+7 (495) 123-45-67</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <p>info@karting-drive.ru</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <div class="section-title">
+                <h2>Контакты</h2>
+            </div>
+            <div class="contacts-container">
+                <div class="contact-info">
+                    <h3>Как нас найти</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Адрес</h4>
+                            <p>г. Москва, ул. Скоростная, д. 15</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Телефон</h4>
+                            <p>+7 (495) 123-45-67</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Email</h4>
+                            <p>info@karting-drive.ru</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Режим работы</h4>
+                            <p>Пн-Чт: 12:00-22:00<br>Пт: 12:00-23:00<br>Сб: 10:00-23:00<br>Вс: 10:00-22:00</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.372949944431!2d37.61729931593057!3d55.755826680553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a50b315e573%3A0xa886bf5a3d9b2e68!2z0JzQvtGB0LrQstCw!5e0!3m2!1sru!2sru!4v1628080077975!5m2!1sru!2sru" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h4>Картинг-Центр Драйв</h4>
+                    <p>Лучший картинг-центр в Москве с профессиональной трассой и современными картами. Адреналин и драйв гарантированы!</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4>Навигация</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Главная</a></li>
+                        <li><a href="#services">Услуги</a></li>
+                        <li><a href="#about">О нас</a></li>
+                        <li><a href="#gallery">Галерея</a></li>
+                        <li><a href="#booking">Запись</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Услуги</h4>
+                    <ul class="footer-links">
+                        <li><a href="#services">Одиночный заезд</a></li>
+                        <li><a href="#services">Гоночный пакет</a></li>
+                        <li><a href="#services">Корпоративный заезд</a></li>
+                        <li><a href="#services">Обучение</a></li>
+                        <li><a href="#services">Детский картинг</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Контакты</h4>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt"></i> г. Москва, ул. Скоростная, д. 15</li>
+                        <li><i class="fas fa-phone"></i> +7 (495) 123-45-67</li>
+                        <li><i class="fas fa-envelope"></i> info@karting-drive.ru</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Картинг-Центр Драйв. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Модальное окно для галереи -->
+    <div class="modal" id="galleryModal">
+        <div class="modal-content">
+            <span class="close-modal" id="closeModal">&times;</span>
+            <img src="" alt="" class="modal-img" id="modalImg">
+        </div>
+    </div>
+
+    <script>
+        // Мобильное меню
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const navMenu = document.getElementById('navMenu');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+
+        // Прокрутка для фиксированного хедера
+        window.addEventListener('scroll', () => {
+            const header = document.getElementById('header');
+            if (window.scrollY > 100) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Галерея с модальным окном
+        const galleryItems = document.querySelectorAll('.gallery-item');
+        const modal = document.getElementById('galleryModal');
+        const modalImg = document.getElementById('modalImg');
+        const closeModal = document.getElementById('closeModal');
+        
+        galleryItems.forEach(item => {
+            item.addEventListener('click', () => {
+                const imageUrl = item.getAttribute('data-image');
+                modalImg.src = imageUrl;
+                modal.style.display = 'flex';
+            });
+        });
+        
+        closeModal.addEventListener('click', () => {
+            modal.style.display = 'none';
+        });
+        
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                modal.style.display = 'none';
+            }
+        });
+
+        // Форма бронирования
+        const bookingForm = document.getElementById('bookingForm');
+        
+        bookingForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            
+            // Здесь обычно отправка данных на сервер
+            alert('Ваша заявка успешно отправлена! Мы свяжемся с вами в ближайшее время для подтверждения бронирования.');
+            bookingForm.reset();
+        });
+
+        // Плавная прокрутка для навигации
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                    
+                    // Закрытие мобильного меню после клика
+                    if (navMenu.classList.contains('active')) {
+                        navMenu.classList.remove('active');
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
